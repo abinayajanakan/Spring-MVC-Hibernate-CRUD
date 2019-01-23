@@ -8,7 +8,7 @@ Features:
   3.Update a Customer
   4.Delete a Customer
  
-  ![Big Picture](master/Spring-MVC-Hibernate-CRUD/big_picture.png)
+  ![Big Picture](Spring-MVC-Hibernate-CRUD/big_picture.png)
   
 
 
