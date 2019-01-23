@@ -7,56 +7,46 @@ Features:
   2.Add a new Customer
   3.Update a Customer
   4.Delete a Customer
+ 
+  ![Big picture] (big_picture.png) 
+  
 
-
-Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
-
-Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. -
-
-Build Status Windows Build Status
-
-Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
-
-js-standard-style
-
-Screenshots
-Include logo/demo screenshot etc.
 
 Tech/framework used
-Ex. -
+1) Spring Framework version:5.1.4
+2) Hibernate Version:5.0.4
+3) Tomcat server
 
-Built with
 
-Electron
-Features
-What makes your project stand out?
 
-Code Example
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
-Installation
-Provide step by step series of examples and explanations about how to get a development env running.
 
-API Reference
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Code Example:
+Folder: src/ com.abinaya.testDb : Sanity code to check the database connection
+Folder: src/ com.abinaya.springdemo.controller: CustomerController.java : contains controller code for the Application
+Folder: src/ com.abinaya.springdemo.dao : contains java classes for DAO.
+Folder: src/ com.abinaya.springdemo.entity : contains Customer.java class which serves as Entity in the DB.
+Folder: src/ com.abinaya.springdemo.service : contains Service level classes
+Folder: WebContent/WEB-INF : conatins xml configuration files.
+Folder: sql-scripts: conatains  SQL scripts to create tables in MySQL
 
-Tests
-Describe and show how to run the tests with code examples.
+Pre-requisites:
+1. Download JDK
+2.IDK: Eclipse JEE
+3.MySQL Workbench
+4.Download the corrresponding Spring and hibernate Config files and add it to the lib folder
+5.Install tomcat and make sure that it is running and import it in the servers tab in Eclipse.
+
+
+
+
 
 How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+1. Clone the project to your PC.
+2. Import the project to your eclipse workspace
+3. Run the sql-scripts in mysql workbench to create necessary tables.
+4. Right click the project and run on Server.
 
-Contribute
-Let people know how they can contribute into your project. A contributing guideline will be a big plus.
 
-Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
 
-Anything else that seems useful
-License
-A short snippet describing the license (MIT, Apache etc)
-
-MIT © Yourname
+ © Abinaya 2019
